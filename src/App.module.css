@@ -1,0 +1,52 @@
+.tittle{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    border-bottom: 2px solid grey;
+}
+.wrapAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapAll p{
+    color: green;
+    padding: 10px 125px;
+    border-radius: 999px;
+    font-size: 22px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wrapResps{
+    background-color: #010101;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; ;
+}
+.wrapResps h2{
+    font-size: 32px;
+    color: aliceblue;
+}
+.wrapResps h3{
+    font-size: 28px;
+    color: rgb(0, 255, 170);
+
+}
